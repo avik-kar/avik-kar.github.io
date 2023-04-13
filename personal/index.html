@@ -11,18 +11,22 @@
 </head>
 <body>
 <div id="container">
-  <div id="header"> Welcome to my Homepage</div>
-  <div id="menu"> <a href="..\index.html">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;
-      <a href="..\ta\index.html">TEACHING</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-      <a href="..\research\index.html">RESEARCH</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-      <a href="..\personal\index.html">PERSONAL</a> </div>
-  <div id="footer"><script>
-datUpdated = new Date(document.lastModified) ;
-datMonth = datUpdated.getMonth() + 1 ;
-datDate = datUpdated.getDate() ;
-datYear = datUpdated.getYear() + 1900;
-document.write("Last modified: " + datDate + "/" + datMonth + "/" + datYear);
-</script></div>
-</div>
+    <div id="header"> Welcome to my Homepage</div>
+    <div id="menu"> <a href="..\index.html">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="..\ta\index.html">TEACHING</a> &nbsp; &nbsp; &nbsp; &nbsp; 
+        <a href="..\research\index.html">RESEARCH</a> &nbsp; &nbsp; &nbsp; &nbsp; 
+        <a href="..\personal\index.html">PERSONAL</a> </div>
+    <div id="main">
+        <img src=".\paintings\Rabi_Shankar.jpg">
+    </div>
+    <div id="footer"><script> 
+        datUpdated = new Date(document.lastModified) ;
+        datMonth = datUpdated.getMonth() + 1 ;
+        datDate = datUpdated.getDate() ;
+        datYear = datUpdated.getYear() + 1900;
+        document.write("Last modified: " + datDate + "/" + datMonth + "/" + datYear);
+        </script>
+    </div>
+    </div>
 </body>
 </html>
