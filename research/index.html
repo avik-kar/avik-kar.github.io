@@ -10,19 +10,29 @@
     <link rel="icon" href="favicon.ico" type="image/icon">
 </head>
 <body>
-<div id="container">
-  <div id="header"> Welcome to my webpage</div>
-  <div id="menu"> <a href="..\index.html">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;
-      <a href="..\ta\index.html">TEACHING</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-      <a href="..\research\index.html">RESEARCH</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-      <a href="..\personal\index.html">PERSONAL</a> </div>
-  <div id="footer"><script>
-datUpdated = new Date(document.lastModified) ;
-datMonth = datUpdated.getMonth() + 1 ;
-datDate = datUpdated.getDate() ;
-datYear = datUpdated.getYear() + 1900;
-document.write("Last modified: " + datDate + "/" + datMonth + "/" + datYear);
-</script></div>
-</div>
+    <div id="container">
+        <div id="header"> Welcome to my webpage</div>
+        <div id="menu"> <a href="..\index.html">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="..\ta\index.html">TEACHING</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="..\research\index.html">RESEARCH</a> &nbsp; &nbsp; &nbsp; &nbsp; 
+            <a href="..\personal\index.html">PERSONAL</a> </div>
+            <div id="main">
+                <h2>Research Intersest</h2>
+                <div id="text">
+                    <p> I'm interested in reinforcement learning and stochastic control.
+                    </p>
+                </div>
+                <p>Curriculum Vitae: <a href=".\assets\AvikKar_CV.pdf"> Click here</a></p>
+            </div>
+        <div id="footer">
+            <script>
+                datUpdated = new Date(document.lastModified) ;
+                datMonth = datUpdated.getMonth() + 1 ;
+                datDate = datUpdated.getDate() ;
+                datYear = datUpdated.getYear() + 1900;
+                document.write("Last modified: " + datDate + "/" + datMonth + "/" + datYear);
+            </script>
+        </div>
+    </div>
 </body>
 </html>
