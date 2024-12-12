@@ -23,6 +23,10 @@ font-size: 30px;
 font-family: Georgia;
 }
 
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
 #menu {
 background-color: #3b7687; 
 padding: 6px 0 6px 40px;
