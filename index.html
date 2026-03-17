@@ -1,48 +1,88 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>Avik Kar</title>
+        <title>Avik Kar | PhD Student, IISc Bangalore</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="style.css"/>
         <meta content="Avik Kar" name="author">
-        <meta name="keywords" content="Avik, Kar, ece, mathematics, iisc, herstein, solutions, group, ring, rudin, walter, Real, complex, analysis, functional">
+        <meta name="keywords" content="Avik, Kar, ece, mathematics, iisc, reinforcement learning, markov decision processes, bandits, online learning">
+        <meta name="description" content="Avik Kar – PhD Student at the Department of Computer Science and Automation, Indian Institute of Science, Bangalore.">
         <link rel="shortcut icon" href="favicon.ico" type="image/icon">
         <link rel="icon" href="favicon.ico" type="image/icon">
     </head>
     <body>
         <div id="container">
-            <div id="header"> Welcome to my webpage</div>
-            <div id="menu"> <a href="index.html">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href=".\ta\index.html">TEACHING</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-                <a href=".\research\index.html">RESEARCH</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-                <a href=".\personal\index.html">PERSONAL</a> 
+
+            <!-- ===== HEADER ===== -->
+            <div id="header">
+                <div id="header-name">Avik Kar</div>
+                <div id="header-title">PhD Researcher &nbsp;·&nbsp; Computer Science &amp; Automation &nbsp;·&nbsp; IISc Bangalore</div>
             </div>
-            <div id="sidebar">
-                <img src=".\assets\avik_2.png"
-                    width="240">
+
+            <!-- ===== NAVIGATION ===== -->
+            <div id="menu">
+                <a href="index.html" class="active">Home</a>
+                <a href="./ta/index.html">Teaching</a>
+                <a href="./research/index.html">Research</a>
+                <a href="./personal/index.html">Personal</a>
             </div>
-            <div id="main">
-                <h2>About Me</h2>
-                <div id="text">
-                    <p>Hello I'm Avik Kar, working as a PhD student under the guidance of Prof. <a href ="https://www.csa.iisc.ac.in/~shalabh/">Shalabh Bhatnagar</a> at <a href="http://csa.iisc.ac.in/">Department of Computer Science and Automation</a> ,<a href ="https://iisc.ac.in/"> Indian Institute of Science</a></p>
-                    <p>My contact details are as follows:<br>Office: Room No. 302, <a href="http://csa.iisc.ac.in/">Department of Computer Science and Automation</a>, Indian Institute of Science, Bangalore, 560012<br><br>
-                        Email: karavik18@gmail.com<br>
-                    </p>
+
+            <!-- ===== BODY WRAPPER ===== -->
+            <div id="body-wrapper">
+
+                <!-- Sidebar -->
+                <div id="sidebar">
+                    <img src="./assets/avik_2.png" alt="Photo of Avik Kar" />
                 </div>
-                <p>Curriculum Vitae: <a href=".\assets\AvikKar_CV.pdf"> Click here</a></p>
-                <p>Scholar Profile: <a href="https://scholar.google.co.in/citations?hl=en&user=Nsj1CQ8AAAAJ"> Click here</a></p>
-                <p>LinkedIn Profile: <a href="https://www.linkedin.com/in/karavik18 "> Click here</a></p>
-            </div>
+
+                <!-- Main Content -->
+                <div id="main">
+                    <h2>About Me</h2>
+                    <div id="text">
+                        <p>
+                            I am a PhD student under the guidance of
+                            <a href="https://www.csa.iisc.ac.in/~shalabh/">Prof. Shalabh Bhatnagar</a>
+                            at the <a href="http://csa.iisc.ac.in/">Department of Computer Science and Automation</a>,
+                            <a href="https://iisc.ac.in/">Indian Institute of Science</a>, Bangalore.
+                            My research broadly focuses on reinforcement learning, online learning, and stochastic optimization.
+                        </p>
+                    </div>
+
+                    <h2>Contact</h2>
+                    <div class="contact-block">
+                        <strong>Office:</strong> Room No. 302,
+                        <a href="http://csa.iisc.ac.in/">Department of Computer Science and Automation</a>,
+                        Indian Institute of Science, Bangalore – 560012<br>
+                        <strong>Email:</strong> <a href="mailto:karavik18@gmail.com">karavik18@gmail.com</a>
+                    </div>
+
+                    <h2>Links</h2>
+                    <div class="profile-links">
+                        <span class="profile-link-item">
+                            <a href="./assets/AvikKar_CV.pdf">Curriculum Vitae (PDF)</a>
+                        </span>
+                        <span class="profile-link-item">
+                            <a href="https://scholar.google.co.in/citations?hl=en&user=Nsj1CQ8AAAAJ" target="_blank" rel="noopener">Google Scholar Profile</a>
+                        </span>
+                        <span class="profile-link-item">
+                            <a href="https://www.linkedin.com/in/karavik18" target="_blank" rel="noopener">LinkedIn Profile</a>
+                        </span>
+                    </div>
+                </div>
+            </div><!-- /#body-wrapper -->
+
+            <!-- ===== FOOTER ===== -->
             <div id="footer">
                 <script>
-                    datUpdated = new Date(document.lastModified) ;
-                    datMonth = datUpdated.getMonth() + 1 ;
-                    datDate = datUpdated.getDate() ;
-                    datYear = datUpdated.getYear() + 1900;
+                    var datUpdated = new Date(document.lastModified);
+                    var datMonth = datUpdated.getMonth() + 1;
+                    var datDate  = datUpdated.getDate();
+                    var datYear  = datUpdated.getFullYear();
                     document.write("Last modified: " + datDate + "/" + datMonth + "/" + datYear);
                 </script>
             </div>
-        </div>
+
+        </div><!-- /#container -->
     </body>
 </html>
-
