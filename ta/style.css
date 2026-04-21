@@ -1,9 +1,9 @@
 @import url('../style.css');
 
 .course-section {
-    padding: 0 0 28px;
-    margin-bottom: 26px;
-    border-bottom: 1px solid #e5e9f1;
+    padding: 0 0 18px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #d4deeb;
 }
 
 .course-section:last-of-type {
@@ -13,40 +13,28 @@
 }
 
 .course-note {
-    margin: 8px 0 18px;
-    color: #5b6678;
-    font-size: 0.96rem;
+    margin: 6px 0 12px;
+    color: #3d4f6b;
+    font-size: 0.98rem;
 }
 
 #text li {
-    background: #fcfdff;
-    border: 1px solid #e4e8ff;
-    border-radius: 10px;
-    padding: 12px 14px 12px 34px;
-    margin-bottom: 9px;
-    line-height: 1.58;
-}
-
-#text li::before,
-#main li::before {
-    left: 12px;
-    top: 13px;
+    padding: 4px 0;
+    margin: 0;
 }
 
 .tut-date {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    font-size: 0.75rem;
-    color: #556277;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.82rem;
+    color: #33435f;
     min-width: 108px;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .course-code {
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 0.92rem;
-    font-weight: 600;
-    color: #66758c;
-    letter-spacing: 0.02em;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #44536c;
     margin-left: 6px;
 }

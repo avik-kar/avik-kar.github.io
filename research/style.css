@@ -1,20 +1,11 @@
 @import url('../style.css');
 
 #main {
-    padding: 34px;
+    padding: 20px 24px;
 }
 
 #text li,
 #main li {
-    background: #fcfdff;
-    border: 1px solid #e4e8ff;
-    border-radius: 14px;
-    padding: 14px 16px 14px 34px;
-    margin-bottom: 10px;
-}
-
-#text li::before,
-#main li::before {
-    left: 12px;
-    top: 15px;
+    margin: 0;
+    padding: 4px 0;
 }

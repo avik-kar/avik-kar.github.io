@@ -1,29 +1,26 @@
 @import url('../style.css');
 
 #main {
-    padding: 34px;
+    padding: 20px 24px;
 }
 
 #text {
-    margin-bottom: 22px;
+    margin-bottom: 14px;
 }
 
 .gallery-grid {
     columns: 3;
-    column-gap: 14px;
+    column-gap: 12px;
 }
 
 .gallery-item {
     break-inside: avoid;
     display: inline-block;
     width: 100%;
-    margin-bottom: 14px;
-    border-radius: 16px;
-    overflow: hidden;
-    border: 1px solid #dfe5ff;
+    margin-bottom: 12px;
+    border: 1px solid #a6b5cb;
     background: #fff;
-    box-shadow: 0 10px 22px -20px rgba(29, 42, 93, 0.75);
-    transition: transform 0.22s ease, box-shadow 0.22s ease;
+    padding: 4px;
 }
 
 .gallery-item a {
@@ -33,16 +30,6 @@
 .gallery-item img {
     width: 100%;
     display: block;
-    transition: transform 0.26s ease;
-}
-
-.gallery-item:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 16px 28px -22px rgba(29, 42, 93, 0.95);
-}
-
-.gallery-item:hover img {
-    transform: scale(1.03);
 }
 
 @media (max-width: 940px) {
