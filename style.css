@@ -28,13 +28,17 @@ a {
 a:hover { color: #7b1414; }
 
 #container {
-    width: min(980px, calc(100vw - 24px));
-    margin: 18px auto;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
     background: var(--panel);
-    border: 1px solid #8ea0bb;
+    border: 0;
 }
 
 #header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background: linear-gradient(180deg, var(--banner) 0%, var(--banner-dark) 100%);
     color: #fff;
     padding: 20px 28px 18px;
