@@ -1,28 +1,42 @@
 @import url('../style.css');
 
-#main {
+.course-section {
     padding: 34px;
-    border-bottom: 1px solid #e9eeff;
+    border-bottom: 1px solid var(--border);
+    background: #fff;
 }
 
-#main:last-of-type {
+.course-section:last-of-type {
     border-bottom: none;
 }
 
-h4 {
+.course-note {
     margin: 8px 0 16px;
-    color: #5e6880;
-    font-weight: 500;
+    color: #556277;
+    font-size: 0.98rem;
+    border-left: 3px solid #cfd7e4;
+    padding-left: 12px;
 }
 
 #text li {
     padding-left: 28px;
+    line-height: 1.6;
 }
 
 .tut-date {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
     font-size: 0.75rem;
-    color: #646f88;
-    min-width: 96px;
+    color: #556277;
+    min-width: 104px;
     display: inline-block;
+    font-weight: 600;
+}
+
+.course-code {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: #5d6c82;
+    letter-spacing: 0.02em;
+    margin-left: 6px;
 }
