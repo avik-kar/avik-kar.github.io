@@ -69,14 +69,14 @@ a:hover { color: #7b1414; }
     text-decoration: none;
     color: #17345d;
     padding: 4px 8px;
-    border: 1px solid transparent;
     font-size: 0.95rem;
+    border-bottom: 2px solid transparent;
 }
 
 #menu a:hover,
 #menu a.active {
-    border-color: #8da3c7;
-    background: #fff;
+    border-bottom-color: #4f6f9f;
+    background: transparent;
 }
 
 #body-wrapper {
